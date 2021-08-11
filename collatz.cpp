@@ -36,6 +36,8 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
 
+    cout << "Running, this may take some time..." << endl;
+    
     thread t[THREAD_COUNT];
 
     auto t1 = chrono::high_resolution_clock::now();
